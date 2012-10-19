@@ -1,9 +1,8 @@
-
 /**
  * Write a description of class salesData here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Dakota Strickner (computerxpds)
+ * @version 1 
  */
 import javax.swing.*;
 
@@ -42,8 +41,7 @@ public class salesData
         netSale = gross - amountDonated;
         
         
-        JOptionPane.showMessageDialog(null, movieName + sum + gross + pSold + amountDonated + netSale, "Movie name" + "\n Number of tickets sold" + "\n Gross Amount: $" + "\n Percent Donated: " + "\n Net Sale: $", JOptionPane.WARNING_MESSAGE);
-        //JOptionPane.showMessageDialog(null, sum, "Number of Tickets Sold: " , JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Movie name" + movieName + "\n Number of tickets sold" + sum + "\n Gross Amount: $ " + gross + "\n Percent Donated: " +  amountDonated + "\n Net Sale: $ "+ netSale, " Movie Sale", JOptionPane.WARNING_MESSAGE);        //JOptionPane.showMessageDialog(null, sum, "Number of Tickets Sold: " , JOptionPane.WARNING_MESSAGE);
         //JOptionPane.showMessageDialog(null, gross, "Gross Amount: $" , JOptionPane.WARNING_MESSAGE);
         //JOptionPane.showMessageDialog(null, pSold, "Percent Donated: " , JOptionPane.WARNING_MESSAGE);
         //JOptionPane.showMessageDialog(null, amountDonated, "Amount Donated: $" , JOptionPane.WARNING_MESSAGE);
