@@ -41,11 +41,7 @@ public class salesData
         netSale = gross - amountDonated;
         
         
-        JOptionPane.showMessageDialog(null, "Movie name" + movieName + "\n Number of tickets sold" + sum + "\n Gross Amount: $ " + gross + "\n Percent Donated: " +  amountDonated + "\n Net Sale: $ "+ netSale, " Movie Sale", JOptionPane.WARNING_MESSAGE);        //JOptionPane.showMessageDialog(null, sum, "Number of Tickets Sold: " , JOptionPane.WARNING_MESSAGE);
-        //JOptionPane.showMessageDialog(null, gross, "Gross Amount: $" , JOptionPane.WARNING_MESSAGE);
-        //JOptionPane.showMessageDialog(null, pSold, "Percent Donated: " , JOptionPane.WARNING_MESSAGE);
-        //JOptionPane.showMessageDialog(null, amountDonated, "Amount Donated: $" , JOptionPane.WARNING_MESSAGE);
-        //JOptionPane.showMessageDialog(null, netSale, "Net Sale: $" , JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Movie name" + movieName + "\n Number of tickets sold" + sum + "\n Gross Amount: $ " + gross + "\n Percent Donated: " +  amountDonated + "\n Net Sale: $ "+ netSale, " Movie Sale", JOptionPane.WARNING_MESSAGE);
     }
 }
         
